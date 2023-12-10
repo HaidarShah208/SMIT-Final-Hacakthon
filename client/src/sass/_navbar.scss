@@ -1,0 +1,40 @@
+header {
+    font-family: 'Poppins', sans-serif !important;
+    padding: 20px 0px;
+    nav {
+        .navbar-brand {
+            img {
+                width: 150px;
+                border-radius: 50%;
+            }
+        }
+        ul {
+            margin-left: 10rem;
+            color:white li {
+                a:hover {
+                    color: white;
+                    border-bottom: 2px solid white;
+                    padding-bottom: 0;
+                }
+                a:active {
+                    color: white;
+                    border-bottom: 2px solid white;
+                    padding-bottom: 0;
+                }
+            }
+        }
+        .btn-outline-primary:hover {
+            color: white;
+        }
+    }
+}
+
+@media only screen and (max-width: 769px) {
+    header {
+        nav {
+            ul {
+                margin-left: 0px;
+            }
+        }
+    }
+}
